@@ -3,7 +3,8 @@
 
 }
 body{
-	background-image: url("..images/symphony.png");
+	background-image: url("../images/symphony.png");
+	
 	background-color: #ffffff;
 	color: #777777;
 	border-color: #dddddd;
@@ -76,9 +77,15 @@ img{
 	float: left;
 	top:5px;
 	margin:5px;
+	width:50px;
+	height:50px;
+	border:0;
+	display: inline-block;
 }
 .profilepic{
 	top: 10px;
+	height: 200px;
+	width: 200px;
 
 }
 #AboutMe{
@@ -102,7 +109,6 @@ img{
 	border:1px;
 	border-style: solid;
 	margin:20px 0px 0px 20px;
-	text-orientation: center;
 	font-size: 22px;
 }
 #clear{
@@ -118,7 +124,16 @@ img{
 } 
 .clickme{
 	padding:0px 0px 0px 35px;
+
 }
+
+img[alt="GitHub"] img[alt="linkedin"] img[alt="Stack"]{
+	width:10px;
+	height:10px;
+	border:0;
+	display: inline-block;
+}
+
 footer{
 	clear: both;
 	text-align: center;
@@ -155,11 +170,34 @@ footer{
 	margin: 20px 20px 20px 0px;
 	overflow: auto;
 }
+input{
+	display: block;
+	width: 100%;
+}
+input[type=submit]{
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    width:20%;
+    cursor: pointer;
+}
+input[name=Message]{
+	height:150px;
+}
+.submit{
+	padding:10px;
+	background-color: #4aaaa5;
+}
 a{	
 	text-align: center;
 	float: left;
 	background-color: #ffffff
 }
-.firstpage{
-	clear:both;
+image[alt=Wed]{
+	border-color: none;
+	display:inline-block;
+	position: relative;
 }
