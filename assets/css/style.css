@@ -201,3 +201,15 @@ image[alt=Wed]{
 	display:inline-block;
 	position: relative;
 }
+.button{
+	position:absolute;
+	float:right;
+	width: 18%;
+	z-index: 2;
+	padding:20px;
+	background-color: #4aaaa5;
+	color:white;
+	font-size: 18px;
+	margin-top: 100px;
+
+}
